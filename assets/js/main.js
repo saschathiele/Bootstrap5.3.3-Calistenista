@@ -1,6 +1,11 @@
 const uniteToast = new bootstrap.Toast('.toast');
-const button = document.querySelector("uniteToastBtn");
+const uniteToastBtn = document.querySelector('#uniteToastBtn');
 
-uniteToastBtn.addEventListener("click", (event) => {
+const canvas = document.querySelector('#confetti');
+const jsConfetti = new JSConfetti();
+
+uniteToastBtn.addEventListener('click', (event) => {
     uniteToast.show();
+    jsConfetti.addConfetti();
 });
+
