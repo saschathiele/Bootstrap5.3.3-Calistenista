@@ -14,6 +14,11 @@
     z-index: 100;
 }
 
+.confetti {
+    margin-bottom: -400px;
+    z-index: 101;
+}
+
 /* ########### ANIMATIONS ########## */
 .email {animation:prestaMeAtencion 1s alternate infinite ease-in;}
 @keyframes prestaMeAtencion { 100% {transform: scale(1.03);} }
