@@ -164,6 +164,9 @@ animation-delay: 1.4s;
 @media all and (min-width: 576px) {
     #flags_box {img {height: 40px;} #chile img {height: 60px;}}
 }
+@media all and (min-width: 768px) {
+    #flags_box {img {height: 50px;} #chile img {height: 75px;}}
+}
 @media all and (min-width: 992px) {
     #flags_box {img {height: 60px;} #chile img {height: 90px;}}
 }
