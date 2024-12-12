@@ -154,4 +154,34 @@ animation-delay: 1.4s;
     transform: translateY(-4px);
 }
 
-
+/* ########### MEDIA QUERIES ########## */
+@media all and (min-width: 1px) {
+    #flags_box {img {height: 20px;}
+	 #chile img {height: 30px;}
+    };
+}
+@media all and (min-width: 400px) {
+    #flags_box {img {height: 30px;}
+	 #chile img {height: 45px;}
+    };
+}
+@media all and (min-width: 576px) {
+    #flags_box {img {height: 40px;}
+	 #chile img {height: 60px;}
+    };
+}
+@media all and (min-width: 992px) {
+    #flags_box {img {height: 60px;}
+	 #chile img {height: 90px;}
+    };
+}
+@media all and (min-width: 1200px) {
+    #flags_box {img {height:  80px;}
+	 #chile img {height: 120px;}
+    };
+}		
+@media all and (min-width: 1400px) {
+    #flags_box {img {height: 100px;}
+	 #chile img {height: 150px;}
+    };
+}
